@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KMeans</title>
+
+    <script type="text/javascript" src="js/bundle.js"></script>
+</head>
+<body>
+Click to add points <br>
+<canvas width="500" height="500" id="canvas"></canvas>
+<br>
+k: <input type="range" min="2" max="8" value="2" id="range" />
+<input type="number" value="2" id="input" /> <br><br>
+
+
+<button id="assign">Assign clusters</button><br>
+<button id="recenter">Recenter Centroids</button><br>
+<button id="reset">Place centroids randomly</button><br>
+<button id="autostart">Autostart</button><br>
+
+</body>
+</html>
